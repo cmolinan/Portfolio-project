@@ -1,0 +1,25 @@
+body {
+    background-color: whitesmoke;
+
+}
+.container {
+  display:flex;
+  border:1px solid blue;
+  width:375px;
+  height:718px;
+  flex-wrap: wrap;
+
+}
+
+.toolbar {
+  border:1px solid violet;
+  height:10%;
+  width:100%;
+    
+  }
+.headline {
+  border:5px solid greenyellow;
+  height: 88%;
+  width:100%;
+  
+}
