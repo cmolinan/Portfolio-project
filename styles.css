@@ -19,15 +19,16 @@ body {
   width: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 160px;
+  padding-top: 180px;
   background-image: url("images/header-shapes mobile@2x.svg");
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
+  background-size:cover;
+  background-position:0px;
   background-color: white;
+  background-origin: content-box;
 }
 
-.headline h2 {
+.headline h1 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -35,7 +36,6 @@ body {
   line-height: 52px;
   color: #172b4d;
   letter-spacing: 0;
-  text-align: start;
   margin-left: 20px;
   width: 327px;
   margin-top: 0;
