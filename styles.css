@@ -1,25 +1,108 @@
-body {
-    background-color: whitesmoke;
-
+:root {
+  --icon-font-family: 'Poppins';
 }
-.container {
-  display:flex;
-  border:1px solid blue;
-  width:375px;
-  height:718px;
-  flex-wrap: wrap;
 
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  border: 1px solid blue;
+  width: 375px;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-image: url("images/header-shapes mobile@2x.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-color: white;
+}
+
+.headline {
+  height: auto;
+  width: auto;
+  margin-top: 120px;
+}
+
+.headline h2 {
+  font-family: var(--icon-font-family);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  letter-spacing: 0;
+  text-align: left;
+  margin-left: 20px;
+  top: 114px;
+  left: 24px;
+  width: 327px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.headline p {
+  font-family: var(--icon-font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 20px;
+}
+
+.headline h3 {
+  font-family: var(--icon-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #7f8cff;
+  margin-left: 20px;
+}
+
+.icons-social {
+  display: flex;
+  margin-left: 20px;
+}
+
+.social {
+  padding-right: 17px;
+  height: fit-content;
 }
 
 .toolbar {
-  border:1px solid violet;
-  height:10%;
-  width:100%;
-    
-  }
-.headline {
-  border:5px solid greenyellow;
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.toolbar h2 {
+  width: 80%;
+  height: 20px;
+  top: 10px;
+  left: 12px;
+  margin-left: 20px;
+  font-family: var(--icon-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+}
+
+.toolbar img {
+  width: 18px;
+  height: 12px;
+  display: flex;
+}
+
+.logo {
   height: 88%;
-  width:100%;
-  
+  width: 100%;
 }
