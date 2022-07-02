@@ -234,6 +234,26 @@
   padding-bottom: 17px;
 }
 
+.work-languages ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
+.work-languages img {
+  padding-right: 10px;
+}
+
+.ul-categories {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 18px;
+  padding-top: 10px;
+}
+
 .infoline img {
   background: #c1c7d0;
   width: 6px;
