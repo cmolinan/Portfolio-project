@@ -3,10 +3,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-}
-
 .container {
   display: flex;
   height: 100vh;
@@ -112,5 +108,21 @@ body {
 }
 
 .mobile-nav {
-  margin-right: 30px;
+  margin-right: 10px;
+  margin-left: 200px;
+  background-color: white;
+  padding-top: 15px;
+  width: 20px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-grow: 1;
+}
+
+.line {
+  background-color: #6070ff;
+  width: 20px;
+  height: 5px;
+  margin-bottom: 2px;
 }
