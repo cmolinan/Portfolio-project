@@ -1,16 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# Portfolio: Mobile version 
 
-> Is the first milestone in the process of creating a portfolio website.
+- Is a new milestone in the process of creating a portfolio website.
+In this project I built two more sections of my mobile portafolio using HTML and CSS, following the Figma design
 
 ## Built With
 
-- HTML / CSS (Flexbox)
+- HTML / CSS (Flexbox / GRID )
 
 ## Authors
-
-- GitHub: [Carlos Molina](https://github.com/cmolinan)
+- Carlos Molina
+  GitHub: https://github.com/cmolinan
 
 ## Show your support
 
