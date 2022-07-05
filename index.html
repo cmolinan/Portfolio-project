@@ -222,7 +222,7 @@
           </div>
         </section>
 
-        <section class="contactForm-section">
+        <section class="contactForm-section ">
           <h2>Contact me</h2>
           <p>If you have an application you<br>
               are interested in developing, a<br>
@@ -232,21 +232,20 @@
           <form  class="contact-form" action="https://formspree.io/.." method="post">
             <ul class="contact-input-form">
               <li>              
-                <input type="text" name="full_name" placeholder="Full name"
+                <input class="input" type="text" name="full_name" placeholder="Full name"
                   maxlength="30" required />
               </li>
               <li>
-                <input type="email" name="email" placeholder="Email address"
+                <input class="input" type="email" name="email" placeholder="Email address"
                 required />
               </li>
               <li>
-                <textarea name="contact_text" cols="30" rows="5"
-                  placeholder="Write you messaje here" maxlength="500" required>
-                </textarea>              
+                <textarea class="txt" name="contact_text" cols="30" rows="5"  maxlength="500" required>
+                Write you message here</textarea>              
               </li>
               <li>
                 <button type="submit" class="contact-button">
-                  Get in touch
+                  Get in Touch
                 </button>
               </li>
             </ul>
