@@ -272,7 +272,7 @@
   align-items: center;
   justify-content: flex-start;
   padding-top: 180px;
-  background-image: url("images/contact-background.png") ;
+  background-image: url("images/contact-shapes-mobile.png"), url("images/contact-background.png");
 
   background-repeat: no-repeat;
   background-size:cover;
@@ -288,16 +288,58 @@
   font-style: bold;
   font-size: 40px;
   line-height: 52px;
-  font-weight: 400; 
-
+  font-weight: 700; 
   color: white;  
   margin-left: 20px;
-
 }
-.contact-form ul {
+
+.contactForm-section p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400; 
+  color: white;  
+  margin-left: 20px;
+  text-align: center;
+}
+
+.contact-input-form {
   display: flex;
   flex-direction: column;
   list-style-type: none;
   padding-left: 18px;
   padding-top: 10px; 
+  justify-content:space-between;
+  gap:12px;
+  list-style: none;
+}
+
+.input{
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+}
+
+.txt{
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+}
+
+.contact-button{
+  background: #FFFFFF;
+  border-radius: 8px;
+  width: 140px;
+  height: 48px;
+  color: #6070FF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
