@@ -262,3 +262,42 @@
   justify-content: center;
   align-content: center;
 }
+
+.contactForm-section {
+  border:  1px solid  red;
+  height: auto;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 180px;
+  background-image: url("images/contact-background.png") ;
+
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+  background-color: white;
+  /* background-origin: content-box; */
+  height: auto;
+  width: auto;
+}
+
+.contactForm-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: bold;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 400; 
+
+  color: white;  
+  margin-left: 20px;
+
+}
+.contact-form ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 18px;
+  padding-top: 10px; 
+}
