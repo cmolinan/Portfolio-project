@@ -264,27 +264,15 @@
 }
 
 .contactForm-section {
-  
   height: auto;
-  width: 327px;
+  width: 340px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 180px;
-  /* background-image: url("images/contact-shapes-mobile.png"); margin-left:153px; 
-      margin-bottom: 49px; margin-top:21px; width: 265px;height: 709px;, 
-          url("images/contact-background.png"); */
-   background-image: url("images/contact-shapes-mobile.png"),url("images/contact-background.png"); 
-
+  align-self: center;
+  padding-top: 80px;
+  background-image: url("images/contact-shapes-mobile.png"), url("images/contact-background.png");
   background-repeat: no-repeat;
-  background-size:cover;
-  
   background-color: white;
-  /* background-origin: content-box; */
-  height: auto;
-  width: auto;
-  
 }
 
 .contactForm-section h2 {
@@ -292,9 +280,9 @@
   font-style: bold;
   font-size: 40px;
   line-height: 52px;
-  font-weight: 700; 
-  color: white;  
-  margin-left: 20px;
+  color: white;
+  width: fit-content;
+  padding-left: 50px;
   padding-bottom: 12px;
 }
 
@@ -303,11 +291,11 @@
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
-  font-weight: 400; 
-  color: white;  
-  margin-left: 20px;
+  color: white;
+  width: fit-content;
   text-align: center;
-  padding-bottom: 44px;
+  padding-left: 8px;
+  padding-bottom: 24px;
 }
 
 .contact-input-form {
@@ -315,19 +303,18 @@
   flex-direction: column;
   list-style-type: none;
   padding-left: 18px;
-  padding-top: 10px; 
-  justify-content:space-between;
-  gap:12px;
-  list-style: none;
+  padding-top: 10px;
+  justify-content: space-between;
+  gap: 12px;
   padding-bottom: 40px;
 }
 
-.input{
-  border: 1px solid #CFD8DC;
+.input {
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
-  width: 327px;
+  width: 305px;
   height: 48px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -335,33 +322,29 @@
   text-align: left;
 }
 
-.txt{
-  font-family: 'Poppins';
+.txt {
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: left;
-  border: 1px solid #CFD8DC;
   border-radius: 8px;
-  width: 327px;
+  width: 305px;
   height: 170px;
-
+  box-sizing: border-box;
 }
 
-.contact-button{
-  border: 1px solid white;
-  background: #FFFFFF;
-  border-radius: 8px;
+.contact-button {
+  border-radius: 8px white;
   width: 140px;
   height: 48px;
-  color: #6070FF;
-  font-family: 'Poppins';
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  
 }
