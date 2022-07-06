@@ -348,3 +348,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.contact-button:hover {
+  color: #030838;
+}
