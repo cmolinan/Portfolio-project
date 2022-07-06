@@ -336,7 +336,8 @@
 }
 
 .contact-button {
-  border-radius: 8px white;
+  border-radius: 8px;
+  border-color: white;
   width: 140px;
   height: 48px;
   color: #6070ff;
@@ -350,5 +351,11 @@
 }
 
 .contact-button:hover {
-  color: #030838;
+  color: white;
+  background-color: #3c469e;
+}
+
+.contact-button:active {
+  color: white;
+  background-color: blue;
 }
