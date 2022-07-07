@@ -44,6 +44,13 @@
   letter-spacing: 0;
 }
 
+.headline h1:hover {
+  color: rgb(243, 12, 43);
+}
+.headline h1 {
+  transition: color 0.5s linear 0.1s;
+}
+
 .about h2 {
   border: 1px solid purple;
   width: 40%;  
@@ -58,6 +65,14 @@
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+
+.headline p:hover {
+  color: rgb(243, 12, 43);  
+}
+
+.headline p {
+  transition: color 0.5s ;
 }
 
 .about p {
