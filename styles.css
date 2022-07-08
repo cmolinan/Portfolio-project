@@ -7,11 +7,11 @@
   display: flex;
   height: 100vh;
   max-width: 100vw;
+  min-width: 320px;
   flex-direction: column;
 }
 
 .headline {
-  border: 1px solid rebeccapurple;
   display: flex;
   flex-direction: column;
   background-image: url("images/background-mobile.svg");
@@ -19,11 +19,10 @@
   background-size: cover;
   background-color: white;
   height: auto;
-  min-width: 320px;
   padding-top: 120px;
   padding-left: 50px;
   padding-right: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 140px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -34,7 +33,6 @@
 
 .headline h1,
 .about h2 {
-  border: 1px solid green;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -44,21 +42,18 @@
   letter-spacing: 0;
 }
 
-.headline h1:hover {
-  color: rgb(243, 12, 43);
-}
 .headline h1 {
-  transition: color 0.5s linear 0.1s;
+  width: 80%;
+  min-width: 280px;
 }
 
 .about h2 {
-  border: 1px solid purple;
-  width: 40%;  
+  width: 40%;
+  padding-bottom: 20px;
 }
 
 .headline p,
 .about p {
-  border: 1px solid green;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -67,33 +62,43 @@
   color: #344563;
 }
 
-.headline p:hover {
-  color: rgb(243, 12, 43);  
-}
-
 .headline p {
-  transition: color 0.5s ;
+  width: 90%;
+  min-width: 280px;
 }
 
 .about p {
-  width: 80%;  
+  width: 80%;
 }
 
 @media only screen and (min-width: 768px) {
+  .headline {
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+  }
+
   .headline h1 {
     font-size: 48px;
     line-height: 52px;
+    width: 80%;
   }
 
   .headline p {
     font-size: 20px;
     line-height: 28px;
+    width: 90%;
+    max-width: 768px;
+  }
+
+  .about p {
+    width: 90%;
   }
 }
 
 .headline h3,
 .about h3 {
-  border: 1px solid brown;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -101,52 +106,58 @@
   letter-spacing: 0;
   text-align: left;
   color: #7f8cff;
-
-  /* margin-left: 20px; */
   padding-top: 15px;
 }
 
+.about h3 {
+  padding-bottom: 20px;
+}
+
 .about-section {
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  min-width: 320px;  
+  margin-bottom: 104px;
+  min-width: 320px;
   height: auto;
 }
 
 @media only screen and (min-width: 768px) {
   .about-section {
     flex-direction: row;
+    width: 768px;
   }
 }
 
 .about {
-  border: 1px solid blue;
   background-color: white;
   padding-top: 24px;
-  padding-left: 24px;
   padding-bottom: 24px;
-  
+  padding-left: 50px;
+  width: 384px;
 }
 
 .about-details {
-  border: 1px solid blue;  
+  width: 384px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-details {
+    padding-left: 10px;
+    padding-bottom: 20px;
+  }
 }
 
 .about-items {
   display: flex;
   flex-direction: row;
-
 }
 
 .about-items img {
-  margin-top: 18px;
+  margin-top: 8px;
   width: 20px;
   height: 20px;
 }
@@ -160,15 +171,23 @@
   text-align: left;
   color: black;
   width: 280px;
-  padding-bottom: 25px;
+  padding-bottom: 18px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-items h3 {
+    padding-top: 15px;
+    padding-bottom: 30px;
+  }
 }
 
 .icons-social {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding-top: 10px;
+  padding-top: 15px;
   padding-inline-start: 0;
+  padding-bottom: 35px;
 }
 
 .social {
@@ -246,7 +265,6 @@
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 @media only screen and (min-width: 768px) {
@@ -259,9 +277,7 @@
   }
 
   .work-section {
-    /* grid-template-columns: 534px; */
     grid-template-columns: 768px;
-
     grid-template-rows: repeat(4, auto);
   }
 
@@ -277,13 +293,12 @@
   padding-left: 16.6px;
 }
 
-
 .works-img {
   background-color: white;
   vertical-align: middle;
   align-self: center;
   height: 220px;
-  width: 311px;  
+  width: 311px;
 }
 
 .works-img img {
@@ -296,7 +311,7 @@
   .works-img {
     height: 311px;
     width: 378px;
-    padding-left: 16.6px ;
+    padding-left: 16.6px;
     padding-right: 16.6px;
   }
 }
@@ -370,7 +385,7 @@
 
 @media only screen and (min-width: 768px) {
   .work-languages {
-    padding-top: 0px;
+    padding-top: 0;
     padding-bottom: 8px;
   }
 }
@@ -391,11 +406,10 @@
 .getresume-btn {
   border-radius: 8px;
   border-color: #7f8cff;
-  background-color:white;    
+  background-color: white;
   width: 140px;
   height: 48px;
-  color: #396df2; 
-    
+  color: #396df2;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -403,26 +417,48 @@
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  }
-  
-  .work-btn:hover,
-  .getresume-btn:hover {
-    color: white;
-    background-color: #6070ff;    
-  }
-  
-  .work-btn:active,
-  .getresume-btn:active {
-    color: white;
-    background-color: #2230d2
-  }
-  
+}
+
+.getresume-btn {
+  width: 155px;
+}
+
+.work-btn:hover,
+.getresume-btn:hover {
+  color: white;
+  background-color: #6070ff;
+}
+
+.work-btn:active,
+.getresume-btn:active {
+  color: white;
+  background-color: #2230d2;
+}
+
 .ul-categories {
   display: flex;
   flex-direction: column;
   list-style-type: none;
   padding-left: 18px;
-  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.ul-categories1 {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .ul-categories {
+    display: none;
+  }
+
+  .ul-categories1 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left: 18px;
+    padding-bottom: 15px;
+  }
 }
 
 .infoline img {
@@ -435,15 +471,26 @@
 }
 
 .contactForm-section {
-  height: auto;
+  height: 900px;
   width: 340px;
   display: flex;
   flex-direction: column;
   align-self: center;
+  align-items: center;
   padding-top: 80px;
-  background-image: url("images/contact-shapes-mobile.png"), url("images/contact-background.png");
+  background-image: url("images/contact-shapes-mobile.png"), url("images/contact-background-mobile.png");
   background-repeat: no-repeat;
   background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .contactForm-section {
+    width: 920px;
+    padding-top: 20px;
+    background-image: url("images/contact-shapes-desktop.png"), url("images/contact-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
 
 .contactForm-section h2 {
@@ -463,7 +510,7 @@
   font-size: 20px;
   line-height: 28px;
   color: white;
-  width: fit-content;
+  width: 320px;
   text-align: center;
   padding-left: 8px;
   padding-bottom: 24px;
@@ -480,7 +527,7 @@
   padding-bottom: 40px;
 }
 
-.input {
+.contact-inputs {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 305px;
@@ -493,7 +540,7 @@
   text-align: left;
 }
 
-.txt {
+.contact-txt {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -504,6 +551,22 @@
   width: 305px;
   height: 170px;
   box-sizing: border-box;
+}
+
+@media only screen and (min-width: 768px) {
+  .contactForm-section p {
+    width: 600px;
+  }
+
+  .contact-inputs {
+    width: 500px;
+    height: 48px;
+  }
+
+  .contact-txt {
+    width: 500px;
+    height: 120px;
+  }
 }
 
 .contact-button {
@@ -524,7 +587,6 @@
 .contact-button:hover {
   color: white;
   background-color: #6070ff;
-  
 }
 
 .contact-button:active {

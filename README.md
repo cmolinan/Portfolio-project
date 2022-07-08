@@ -2,8 +2,8 @@
 
 # Portfolio: Mobile version 
 
-> Is a new milestone in the process of creating a portfolio website.
-In this project I built two more sections of my mobile portafolio using HTML and CSS, following the Figma design
+> This is the a milestone in the process of creating a portfolio website.
+I'm adding the desktop version, with a UIs adaptable to another screen size using media queries. 
 
 ## Built With
 
@@ -34,7 +34,6 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
-
 
  
  
