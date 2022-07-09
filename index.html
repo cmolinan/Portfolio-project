@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio: mobile version</title>
@@ -12,30 +12,30 @@
 
 </head>
 <body>
-    <main class="container">        
-        <header>
-            <div class="toolbar">
-                <a href=""><h1>My Logo</h1></a>  
-                <nav class="mobile-nav"> 
-                    <div class="line"></div>
-                    <div class="line"></div>
-                    <div class="line"></div>
-                  
-                </nav>
-            </div>
+    <main class="main-container">        
+        <header>          
+          <div class="toolbar">
+            <a href=""><h1>My Logo</h1></a>
+            
+            <div class="menu-desktop">
+              <a href="#" class="menu-opt">Portfolio</a>
+              <a href="#" class="menu-opt">About</a>
+              <a href="#" class="menu.opt">Contact</a>
+            </div>        
+
+            <nav class="mobile-nav"> 
+              <img src="./images/hamburger-icon.svg" alt="Menu">
+            </nav>
+          </div>
         </header>
 
-        <section class="headline">            
-            <h1>I’m Carlos</h1> 
-            <h1>Glad to see you!</h1> 
-            <p>I’m a software developer! I can help you
-              build a product , feature or website. Look
-              through some of my work and experience!
-              If you like what you see and
-              have a project you need coded, don’t
-              hestiate to contact me.
+        <section class="section-headline">
+          <div class="headline">
+            <h1>I'm Carlos<br>
+                Glad to see you!</h1> 
+            <p>
+              I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.
             </p>
-
             <h3>LET'S CONNECT</h3>
             <div>
               <ul class="icons-social" >
@@ -56,13 +56,14 @@
                 </li>
               </ul>
             </div>
+          </div> 
         </section>
 
         <section class="work-section">
           
           <div class="card card-odd">
             <div class="works-img" >
-              <img src="images/work1.png" alt="work1">
+              <img src="images/work1.svg" alt="work1">
             </div>                      
             <div class="works">              
               <h2>Tonic</h2>
@@ -87,10 +88,11 @@
               </div>
               <button class="work-btn">See Project</button>
             </div>
-          </div>  
+          </div> 
+
           <div class="card card-pair">
             <div class="works-img">
-              <img src="images/work2.png" alt="work2">
+              <img src="images/work2.svg" alt="work2">
             </div>                  
             <div class="works">
               <h2>Multi-Post Stories</h2>
@@ -119,7 +121,7 @@
 
           <div class="card card-odd">
             <div class="works-img" >
-              <img src="images/work3.png" alt="work3">
+              <img src="images/work3.svg" alt="work3">
             </div>                      
 
             <div class="works">
@@ -149,7 +151,7 @@
 
           <div class="card card-pair">
             <div class="works-img" >
-              <img src="images/work4.png" alt="work4">
+              <img src="images/work4.svg" alt="work4">
             </div>                      
 
             <div class="works">
@@ -186,7 +188,7 @@
               build a product , feature or website Look
               through some of my work and
               experience! If you like what you see and
-              have a project you need coded, don’t
+              have a project you need coded, don't
               hestiate to contact me.
             </p>
             <h3>LET'S CONNECT</h3>
@@ -232,9 +234,6 @@
               <h3>Frameworks</h3>
               <img src="images/greater-than.png"  alt="open">      
             </div>
-            <ul class="ul-categories">
-                  <li></li>
-            </ul>
 
             <div class="about-items">
               <h3>Skills</h3>             
@@ -247,36 +246,38 @@
 
         </section>
 
-        <section class="contactForm-section ">        
-          <h2>Contact me</h2>
-          <p>If you have an application you
-              are interested in developing, a
-              feature that you need built or a
-              project that needs coding. I’d
-              love to help with it</p> 
-          <form  class="contact-form" action="https://formspree.io/f/mgedjayo" method="post">
-            <ul class="contact-input-form">
-              <li>              
-                <input class="contact-inputs" type="text" name="full_name" placeholder="Full name"
-                  maxlength="30" required />
-              </li>
-              <li>
-                <input class="contact-inputs" type="email" name="email" placeholder="Email address"
-                required /> 
-              </li>
-              <li>
-                <textarea placeholder="Write your message here"
-                 class="contact-txt" name="contact_text" 
-                 cols="30" rows="5"  maxlength="500" required
-                 ></textarea>
-              </li>
-              <li>
-                <button type="submit" class="contact-button">
-                Get in Touch</button>
-              </li>              
-            </ul>                
-          </form>
-
+        <section class="contactform-section">        
+          <div class="contact-info">
+            <h2>Contact me</h2>
+            <p>If you have an application you
+                are interested in developing, a
+                feature that you need built or a
+                project that needs coding. I'd
+                love to help with it</p> 
+            <form  class="contact-form" action="https://formspree.io/f/mgedjayo" method="post">
+              <ul class="contact-input-form">
+                <li>              
+                  <input class="contact-inputs" type="text" name="full_name" placeholder="Full name"
+                    maxlength="30" required />
+                </li>
+                <li>
+                  <input class="contact-inputs" type="email" name="email" placeholder="Email address"
+                  required /> 
+                </li>
+                <li>
+                  <textarea placeholder="Write your message here"
+                  class="contact-txt" name="contact_text" 
+                  cols="30" rows="5"  maxlength="500" required
+                  ></textarea>
+                </li>
+                <li>
+                  <button type="submit" class="contact-button">
+                  Get in Touch</button>                
+                </li>                              
+              </ul>              
+            </form>
+            <img src="images/last-line.svg"  alt="the-end">
+          </div>
         </section>  
 
     </main>
