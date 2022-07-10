@@ -368,7 +368,7 @@ body {
   align-self: center;
   margin: 0;
   padding: 0;
-  gap: 13px;
+  gap: 20px;
   padding-bottom: 32px;
 }
 
@@ -377,7 +377,8 @@ body {
   border-radius: 8px;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
   height: 52px;
   font-weight: 500;
   font-size: 17px;
@@ -394,6 +395,11 @@ body {
   width: 100%;
   height: 175px;
   box-sizing: border-box;
+  /* padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px; */
+  padding: 15px;
+
 }
 
 .contact-button {
@@ -442,6 +448,7 @@ body {
 
   .contact-info p {
     width: 100%;
+    padding-bottom: 20px;
   }
 
   .contact-inputs {
@@ -449,7 +456,7 @@ body {
   }
 
   .contact-txt {
-    height: 120px;
+        height: 170px;
   }
 
   .section-headline {
@@ -480,6 +487,11 @@ body {
 
   .about {
     flex: 1;
+    padding-left: 140px;
+  }
+
+  .about-details {
+    padding-right: 140px;
   }
 
   .about p {
@@ -494,6 +506,7 @@ body {
   .about-items h3 {
     padding-top: 15px;
     padding-bottom: 30px;
+    flex: 1;
   }
 
   .card-pair {
@@ -506,10 +519,18 @@ body {
 
   .work-section {
     grid-template-rows: repeat(4, auto);
+    width: 83.5%;
+    margin: 0 auto;
   }
 
   .works {
     flex: 1;
+    padding-top: 48px;
+    /* padding-top: 9.6%; */
+    padding-left: 48px;
+    /* padding-bottom:  24%; */
+    padding-bottom: 130px;
+    
   }
 
   .about-details {
@@ -521,7 +542,7 @@ body {
   .works h2 {
     font-size: 40px;
     line-height: 52px;
-    width: 75%;
+    width: 85%;
   }
 
   .works h3 {
@@ -542,7 +563,7 @@ body {
 
   .work-languages {
     padding-top: 0;
-    padding-bottom: 8px;
+    padding-bottom: 25px;
   }
 
   .ul-categories {
@@ -560,6 +581,7 @@ body {
   .works p {
     width: 100%;
     font-size: 16px;
+    padding-top: 10px;
   }
 
   .works-img {
@@ -571,7 +593,8 @@ body {
   .contact-info {
     box-sizing: unset;
     width: 50%;
-    padding: 142px 25% 127px 25%;
+    width: fit-content;
+    padding: 142px 30% 127px 30%;
   }
 
   .contactform-section {
@@ -581,4 +604,19 @@ body {
   .contact-info img {
     display: none;
   }
+
+  .contact-form {
+    width: 78%;
+    align-self: center;
+  }
+
+  .contact-input-form {
+    gap: 27px;
+  }
+
+  .contact-button-li {
+    text-align: center;
+    
+  }  
+
 }
