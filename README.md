@@ -9,6 +9,10 @@ I'm adding the desktop version, with a UIs adaptable to another screen size usin
 
 - HTML / CSS (Flexbox)
 
+## Online version
+
+[Carlos's Portfolio](https://cmolinan.github.io)
+
 ## Getting Started
 
 - To get a local copy up, clone the repo like this: 
