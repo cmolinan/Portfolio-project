@@ -158,7 +158,8 @@ body {
   background-color: white;
 }
 
-.toolbar h1 {
+.toolbar a {
+  text-decoration: none;
   width: 130px;
   height: 20px;
   font-weight: 700;
@@ -167,10 +168,6 @@ body {
   padding-top: 24px;
   text-align: center;
   color: #6070ff;
-}
-
-.toolbar a {
-  text-decoration: none;
 }
 
 .mobile-nav {
@@ -330,6 +327,10 @@ body {
   border-top-left-radius: 80px;
   background-image: url(./images/backg-balls-mobile.svg);
   padding: 103px 24px 8px 24px;
+}
+
+.contact-background {
+  background-color: white;
 }
 
 .contact-info {
