@@ -160,7 +160,7 @@ body {
 
 .toolbar a {
   text-decoration: none;
-  width: 130px;
+  width: 360px;
   height: 20px;
   font-weight: 700;
   font-size: 18px;
@@ -168,6 +168,7 @@ body {
   padding-top: 24px;
   text-align: center;
   color: #6070ff;
+  padding-left: 11%;
 }
 
 .mobile-nav {
@@ -178,16 +179,8 @@ body {
 }
 
 .menu-desktop {
-  padding-top: 22px;
+  /* padding-top: 22px; */
   visibility: hidden;
-}
-
-.menu-opt {
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 20px;
-  color: #344563;
-  text-decoration: none;
 }
 
 .work-section {
@@ -254,7 +247,6 @@ body {
 
 .infoline {
   display: flex;
-  padding-bottom: 15px;
 }
 
 .work-languages ul {
@@ -427,12 +419,22 @@ body {
     display: none;
   }
 
+  .menu-desktop a {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    width: 90px;
+    height: 20px;
+    padding-top: 24px;
+  }
+
   .menu-desktop {
     display: flex;
-    gap: 30px;
-    align-items: center;
+    align-items: left;
     text-align: center;
-    margin-right: 154px;
+    margin-right: 10%;
     visibility: visible;
   }
 
@@ -509,6 +511,11 @@ body {
     flex: 1;
   }
 
+  .card {
+    padding: 0;
+    align-items: center;
+  }
+
   .card-pair {
     flex-direction: row-reverse;
   }
@@ -519,15 +526,16 @@ body {
 
   .work-section {
     grid-template-rows: repeat(4, auto);
-    width: 83.5%;
+    width: 90vw;
     margin: 0 auto;
   }
 
   .works {
-    flex: 1;
-    padding-top: 5%;
+    /* flex: 1; */
+    width: 48%;
+    padding-top: 3%;
     padding-left: 2%;
-    padding-bottom: 12%;
+    padding-bottom: 4%;
   }
 
   .works h2 {
@@ -554,7 +562,10 @@ body {
 
   .work-languages {
     padding-top: 0;
-    padding-bottom: 25px;
+  }
+
+  .work-languages ul {
+    padding-top: 0;
   }
 
   .ul-categories {
@@ -572,13 +583,11 @@ body {
   .works p {
     width: 100%;
     font-size: 16px;
-    padding-top: 10px;
   }
 
   .works-img {
-    padding-left: 16.6px;
-    padding-right: 16.6px;
-    flex: 1;
+    width: 50%;
+    padding: 12px;
   }
 
   .contact-info {
