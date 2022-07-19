@@ -2,14 +2,11 @@
 
 # Portfolio: Mobile and Desktop version 
 
-> This is a new milestone in the process of creating a portfolio website.
-I'm adding the desktop version, with a UIs adaptable to another screen size using media queries.
-In addition, adjustments for accessibility have been included.
-
+> This is a new milestone in the process of creating a portfolio website. Now, I'm adding a mobile Menu using the manipulation of the DOM with JavaScript. 
 
 ## Built With
 
-- HTML / CSS (Flexbox-Grid)
+- HTML / CSS (Flexbox-Grid) / JavaScript
 
 ## Online version
 
@@ -34,9 +31,11 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-- To Matias Aguirre, my teammate on Microverse
-- To Haftamu Desta,  my teammate on Microverse
+## Acknowledgments 
+To my teammates on Microverse:
+- Matias Aguirre 
+- Haftamu Desta
+- David Isea
 
 ## 📝 License
 
