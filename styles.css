@@ -11,6 +11,60 @@ body {
   background-color: #e5e5e5;
 }
 
+.toolbar {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  background-color: white;
+}
+
+/* .toolbar a {
+  text-decoration: none;
+  width: 360px;
+  height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 24px;
+  text-align: center;
+  color: #6070ff;
+  padding-left: 11%;
+} */
+
+.logo {
+  width: 120px;
+  height: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  padding-top: 24px;
+  color: #6070ff;
+  padding-left: 20px;
+}
+
+.mobile-nav {
+  cursor: pointer;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-right: 36px;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+#MobileMenu {
+  display: none;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  background-color: rgba(96, 112, 255, 0.91);
+}
+
+
 .section-headline {
   background: #fff;
   border-bottom-left-radius: 80px;
@@ -149,38 +203,6 @@ body {
   color: #396df2;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-.toolbar {
-  width: 100vw;
-  height: 50px;
-  display: flex;
-  background-color: white;
-}
-
-.toolbar a {
-  text-decoration: none;
-  width: 360px;
-  height: 20px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  padding-top: 24px;
-  text-align: center;
-  color: #6070ff;
-  padding-left: 11%;
-}
-
-.mobile-nav {
-  cursor: pointer;
-  margin-left: auto;
-  padding-top: 15px;
-  padding-right: 36px;
-}
-
-.menu-desktop {
-  /* padding-top: 22px; */
-  visibility: hidden;
 }
 
 .work-section {
@@ -419,6 +441,11 @@ body {
     display: none;
   }
 
+  .logo {
+    padding-left: 11%;
+    width: auto;
+  }
+
   .menu-desktop a {
     color: #344563;
     font-size: 15px;
@@ -428,6 +455,7 @@ body {
     width: 90px;
     height: 20px;
     padding-top: 24px;
+    text-align: center;
   }
 
   .menu-desktop {
@@ -435,13 +463,11 @@ body {
     align-items: left;
     text-align: center;
     margin-right: 10%;
-    visibility: visible;
   }
 
   .toolbar {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
-    box-sizing: border-box;
     width: 100%;
   }
 
