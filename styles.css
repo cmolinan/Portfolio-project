@@ -64,6 +64,22 @@ body {
   background-color: rgba(96, 112, 255, 0.91);
 }
 
+.menu {
+  display: block;
+  color: white;
+  padding: 0 16px 13px 7.5%;
+  text-decoration: none;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.close-menu {
+  padding-bottom: 0;
+  padding-left: 82%;
+  padding-top: 0;
+  margin: 0;
+}
 
 .section-headline {
   background: #fff;
