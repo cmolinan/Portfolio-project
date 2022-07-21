@@ -1,6 +1,4 @@
 const queryMobileMenu = document.getElementById('MobileMenu');
-const queryMenuIcon = document.getElementById ('menu-icon');
-const queryCloseMenu = document.getElementById ('close-menu');
 
 function MobileMenu () {
   if ( queryMobileMenu.style.display == 'block') {
@@ -10,5 +8,18 @@ function MobileMenu () {
     }
 }
 
-queryMenuIcon.addEventListener('click', MobileMenu);
-queryCloseMenu.addEventListener('click', MobileMenu);
+function WorkCards () {
+  
+   if ( document.getElementById('popup-work-section').style.display == 'flex') {
+    document.getElementById('popup-work-section').style.display = 'none';
+
+   } else {
+    document.getElementById('toolbar').style.display = 'none';
+    document.getElementById('section-headline').style.display = 'none';
+    document.getElementById('work-section').style.display = 'none';
+    document.getElementById('about-section').style.display = 'none';
+    document.getElementById('contact-background').style.display = 'none';    
+    document.getElementById('popup-work-section').style.display  = 'flex';
+  }
+}
+
