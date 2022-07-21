@@ -234,7 +234,7 @@ body {
 }
 
 #popup-work-section {
-  display: none;
+  display: flex;
   flex-direction: column;
   background-color: white;
   padding: 16px;
@@ -244,6 +244,13 @@ body {
   /* showing the popup card */
   top: 0;
   left: 0;
+}
+
+#popcard1,
+#popcard2,
+#popcard3,
+#popcard4 {
+  display: none;
 }
 
 .works {
