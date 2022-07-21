@@ -12,7 +12,11 @@ function WorkCards () {
   
    if ( document.getElementById('popup-work-section').style.display == 'flex') {
     document.getElementById('popup-work-section').style.display = 'none';
-
+    document.getElementById('toolbar').style.display = 'flex';
+    document.getElementById('section-headline').style.display = 'block';
+    document.getElementById('work-section').style.display = 'grid';
+    document.getElementById('about-section').style.display = 'flex';
+    document.getElementById('contact-background').style.display = 'block'; 
    } else {
     document.getElementById('toolbar').style.display = 'none';
     document.getElementById('section-headline').style.display = 'none';
