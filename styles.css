@@ -234,7 +234,7 @@ body {
 }
 
 #popup-work-section {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: white;
   padding: 16px;
@@ -242,10 +242,8 @@ body {
   border-radius: 16px;
 
   /* showing the popup card */
-  position: fixed;
   top: 0;
   left: 0;
-  z-index: 9;
 }
 
 .works {
