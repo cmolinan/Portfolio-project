@@ -514,6 +514,16 @@ body {
   padding: 15px;
 }
 
+#label-email {
+  display: none;
+  color: white;
+  background-color: #a82325;
+  position: relative;
+  top: -35px;
+  text-align: center;
+  padding-bottom: 0;
+}
+
 .contact-button {
   border-radius: 8px;
   border-color: white;
@@ -803,6 +813,11 @@ body {
 
   .contactform-section {
     background-image: url(./images/backg-balls-desktop.svg);
+  }
+
+  #label-email {
+    top: -38px;
+    left: 0;
   }
 
   .contact-info img {

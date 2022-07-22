@@ -17,7 +17,7 @@
       <div class="menu-desktop">
         <a href="#work-section">Portfolio</a>
         <a href="#about-section">About</a>
-        <a href="#contact-section">Contact</a>
+        <a href="#contact-background">Contact</a>
       </div>
       <nav id="main-menu" class="mobile-nav">
         <a id="menu-icon" href="#mobile-menu" onclick="MobileMenu()"><img src="./images/hamburger-icon.svg" alt="Menu"></a>          
@@ -29,7 +29,7 @@
           </a>
           <a href="#work-section" onclick="MobileMenu()" class="menu">Portfolio</a>
           <a href="#about-section" onclick="MobileMenu()" class="menu">About</a>
-          <a href="#contact-section" onclick="MobileMenu()" class="menu">Contact</a>
+          <a href="#contact-background" onclick="MobileMenu()" class="menu">Contact</a>
         </div>
 
       </nav>
@@ -155,15 +155,15 @@
               feature that you need built or a
               project that needs coding. I'd
               love to help with it</p> 
-          <form  class="contact-form" action="https://formspree.io/f/mgedjayo" method="post">
+          <form onsubmit="return email_validation()" id="contact-form" class="contact-form" action="https://formspree.io/f/mgedjayo" method="post">
             <ul class="contact-input-form">
               <li>                                
                 <label><input class="contact-inputs" type="text" name="full_name" placeholder="Full name"
                   maxlength="30" required /></label>
               </li>
               <li>
-                <label><input class="contact-inputs" type="email" name="email" placeholder="Email address"
-                required /></label>
+                <input id="email"  class="contact-inputs" type="email" name="email" placeholder="Email address"
+                required />
               </li>
               <li>
                 <label><textarea placeholder="Write your message here"
@@ -173,17 +173,18 @@
               </li>
               <li class="contact-button-li">
                 <button type="submit" class="contact-button">
-                Get in Touch</button>                
+                Get in Touch</button>            
               </li>                              
-            </ul>              
+            </ul>    
           </form>
+          <p id="label-email">Please, use lower case for e-mail</p>
           <img src="images/last-line.svg"  alt="end of portfolio">
         </div>
       </div>
     </section>
   </main>
 
-  <script type="text/javascript" src="code.js"></script>
+  <script src="code.js"></script>
   <script src="cards.js"></script>
 </body>
 </html>

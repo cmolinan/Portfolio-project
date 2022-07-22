@@ -1,6 +1,6 @@
 const queryMobileMenu = document.getElementById('MobileMenu');
 
-//Mobile Menu
+//For Mobile Menu
 function MobileMenu () {
   if ( queryMobileMenu.style.display == 'block') {
     queryMobileMenu.style.display = 'none';
@@ -29,5 +29,25 @@ function WorkCards (popcardNumber) {
     document.getElementById('work-section').style.display = 'none';
     document.getElementById('about-section').style.display = 'none';
     document.getElementById('contact-background').style.display = 'none';    
+  }
+}
+
+// For email Validation.
+const contact_form = document.getElementById('contact-form');
+const email = document.getElementById('email');
+const emailLabel = document.getElementById('label-email');
+const underCase = /^[a-z0-9_.+-]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+
+function email_validation() {
+  if (underCase.test(email.value)) {
+    contact_form.submit();
+    contact_form.reset();
+    emailLabel.style.display = 'none';
+    email.style.border = 'none';
+    return false;
+  } else {
+    emailLabel.style.display = 'block';
+    email.style.border = '3px solid red';
+    return false;
   }
 }
