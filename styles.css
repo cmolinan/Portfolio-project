@@ -521,6 +521,7 @@ body {
   position: relative;
   top: -35px;
   text-align: center;
+  padding-bottom: 0;
 }
 
 .contact-button {
