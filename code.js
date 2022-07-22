@@ -9,28 +9,6 @@ function MobileMenu () {
     }
 }
 
-//For the Popup Cards
-function WorkCards (popcardNumber) {
-
-   if ( document.getElementById(popcardNumber).style.display == 'block') {
-    document.getElementById(popcardNumber).style.display = 'none';    
-    document.getElementById('toolbar').style.display = 'flex';
-    document.getElementById('section-headline').style.display = 'block';
-    document.getElementById('work-section').style.display = 'grid';
-    document.getElementById('about-section').style.display = 'flex';
-    document.getElementById('contact-background').style.display = 'block'; 
-
-    //jump to the original Card 
-    window.location.href = "#work"+ popcardNumber.substring(7, 8);
-   } else {
-    document.getElementById(popcardNumber).style.display = 'block';
-    document.getElementById('toolbar').style.display = 'none';
-    document.getElementById('section-headline').style.display = 'none';
-    document.getElementById('work-section').style.display = 'none';
-    document.getElementById('about-section').style.display = 'none';
-    document.getElementById('contact-background').style.display = 'none';    
-  }
-}
 
 // For email Validation.
 const contact_form = document.getElementById('contact-form');
@@ -51,3 +29,38 @@ function email_validation() {
     return false;
   }
 }
+
+//For local Storage
+const fullName = document.getElementById('fullName');
+const contactText = document.getElementById('contactText');
+document.addEventListener('focusout', saveStorage);
+
+function saveStorage() {
+  //javaScript object
+  const contactForm = {
+  fullName: fullName.value,
+  email: email.value,
+  contactText: contactText.value
+};
+localStorage.setItem('contactForm', JSON.stringify(contactForm));
+}
+
+function readStorageValues() {
+  if (localStorage.getItem('contactForm')) {
+    const contactForm = JSON.parse(localStorage.getItem('contactForm'));
+    const currentName = contactForm.fullName;
+    const currentEmail = contactForm.email;
+    const currentTextarea = contactForm.contactText;
+
+    fullName.value = currentName;
+    email.value = currentEmail;
+    contactText.value = currentTextarea;
+
+  } else {
+    fullName.value = '';
+    email.value = '';
+    contactText.value = '';
+  }
+}
+
+window.addEventListener('load', readStorageValues);

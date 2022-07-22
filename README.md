@@ -2,7 +2,7 @@
 
 # Portfolio: Mobile and Desktop version 
 
-> This is a new milestone in the process of creating a portfolio website. Now, I'm adding a Popup Card using the manipulation of the DOM with JavaScript. 
+> This is a last milestone in the process of creating a portfolio website. Now, I'm adding the preservation of the data added to the Contact Form, in the browser.
 
 ## Built With
 

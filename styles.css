@@ -234,7 +234,7 @@ body {
 }
 
 #popup-work-section {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: white;
   padding: 16px;
