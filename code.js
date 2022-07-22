@@ -35,6 +35,15 @@ const fullName = document.getElementById('fullName');
 const contactText = document.getElementById('contactText');
 document.addEventListener('focusout', saveStorage);
 
+function saveStorage() {
+  //javaScript object
+  const contactForm = {
+  fullName: fullName.value,
+  email: email.value,
+  contactText: contactText.value
+};
+localStorage.setItem('contactForm', JSON.stringify(contactForm));
+}
 
 function readStorageValues() {
   if (localStorage.getItem('contactForm')) {
