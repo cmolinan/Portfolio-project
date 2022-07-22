@@ -1,6 +1,6 @@
 const queryMobileMenu = document.getElementById('MobileMenu');
 
-//Mobile Menu
+//For Mobile Menu
 function MobileMenu () {
   if ( queryMobileMenu.style.display == 'block') {
     queryMobileMenu.style.display = 'none';
