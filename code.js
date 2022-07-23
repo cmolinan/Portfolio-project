@@ -1,4 +1,4 @@
-const queryMobileMenu = document.getElementById('MobileMenu');
+const queryMobileMenu = document.getElementById('mobileMenu');
 
 //For Mobile Menu
 function MobileMenu () {
