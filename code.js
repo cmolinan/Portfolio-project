@@ -1,6 +1,7 @@
 const queryMobileMenu = document.getElementById('MobileMenu');
 
 //For Mobile Menu
+// eslint-disable-next-line no-unused-vars
 function MobileMenu () {
   if ( queryMobileMenu.style.display == 'block') {
     queryMobileMenu.style.display = 'none';
@@ -16,6 +17,7 @@ const email = document.getElementById('email');
 const emailLabel = document.getElementById('label-email');
 const underCase = /^[a-z0-9_.+-]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
 
+// eslint-disable-next-line no-unused-vars
 function email_validation() {
   if (underCase.test(email.value)) {
     contact_form.submit();
