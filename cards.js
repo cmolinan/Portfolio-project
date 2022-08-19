@@ -4,107 +4,94 @@ const info = {
   works: [
   {
     id: 1,
-    image: 'images/work1.svg',  
-    title: 'Tonic',
-    subtit1: 'CANOPY',
-    subtit2: 'Back End Dev',
-    subtit3: '2015',
-    description: `A daily selection of privately
-    personalized reads; no accounts or
-    sign-ups required.`,
+    // image: 'images/work1.svg',
+    image: 'images/work1a.png',
+    title: 'Portfolio',
+    subtit1: 'MICROVERSE',
+    subtit2: 'Front-End Dev',
+    subtit3: '2022',
+    description: `A Portfolio based in Figma, and
+    built with HTML/CSS and JavaScript for DOM manipulation.`,
     tech1_img: 'images/html-tag.png',
     tech1: 'html',
     tech2_img: 'images/css-tag.png',
     tech2: 'css',
     tech3_img: 'images/js-tag.png',
     tech3: 'javaScript',
-    popup_description: `Lorem Ipsum is simply dummy text of 
-    the printing and typesetting industry. Lorem Ipsum has 
-    been the industry's standard dummy text ever since the 
-    1500s, when an unknown printer took a galley of type 
-    and scrambled it to make a type specimen book. It has
-     survived not only five centuries,but also the leap 
-     into electronic typesetting remaining essent`,
-     livelink: 'javascript:void(0);',
-     sourcelink: 'javascript:void(0);' 
+    popup_description: `This Portfolio was built entirely in HTML/CSS and JavaScript 
+    for DOM Manipulation, using technologies such as Flexbox and Grid, and applying 
+    Responsive design. It is based on a FIGMA design`,
+     livelink: 'https://cmolinan.github.io/',
+     sourcelink: 'https://github.com/cmolinan/Portfolio-project' 
   },
   {
     id: 2,
-    image: 'images/work2.svg',  
-    title: 'Multi-Post Stories',
-    subtit1: 'CANOPY',
-    subtit2: 'Back End Dev',
-    subtit3: '2015',
-    description: `A daily selection of privately
-    personalized reads; no accounts or
-    sign-ups required.`,
+    image: 'images/work2a.png',  
+    title: 'Website for a Conference',
+    subtit1: 'MICROVERSE',
+    subtit2: 'Front-End Dev',
+    subtit3: '2022',
+    description: `A responsive website for a 
+    Conference commemorating the Bicentennial 
+    of the Independence of Peru.`,
     tech1_img: 'images/html-tag.png',
     tech1: 'html',
     tech2_img: 'images/css-tag.png',
     tech2: 'css',
     tech3_img: 'images/js-tag.png',
     tech3: 'javaScript',
-    popup_description: `Lorem Ipsum is simply dummy text of 
-    the printing and typesetting industry. Lorem Ipsum has 
-    been the industry's standard dummy text ever since the 
-    1500s, when an unknown printer took a galley of type 
-    and scrambled it to make a type specimen book. It has
-     survived not only five centuries,but also the leap 
-     into electronic typesetting remaining essent`,
-    livelink: '#',
-    sourcelink: '#' 
+    popup_description: `This project is a responsive website for a Conference commemorating 
+    the Bicentennial of the Independence of Peru. It is based on an idea from Behance.net 
+    and was built using JavaScript for DOM manipulation and events handling. In addition, 
+    objects were used to access Local Storage`,
+    livelink: 'https://cmolinan.github.io/First-Capstone/',
+    sourcelink: 'https://github.com/cmolinan/First-Capstone-project' 
   },
   {
     id: 3,
-    image: 'images/work3.svg',
-    title: 'TONIC',
-    subtit1: 'CANOPY',
-    subtit2: 'Back End Dev',
-    subtit3: '2015',
-    description: `A daily selection of privately
-    personalized reads; no accounts or
-    sign-ups required.`,
+    image: 'images/work3a.png',
+    title: 'Awesome Books',
+    subtit1: 'MICROVERSE',
+    subtit2: 'Front-End Dev',
+    subtit3: '2022',
+    description: `A simple interactive website that displays a 
+    list of books, allowing to add and remove books from 
+    that list.`,
     tech1_img: 'images/html-tag.png',
     tech1: 'html',
     tech2_img: 'images/css-tag.png',
     tech2: 'css',
     tech3_img: 'images/js-tag.png',
     tech3: 'javaScript',
-    popup_description: `Lorem Ipsum is simply dummy text of 
-    the printing and typesetting industry. Lorem Ipsum has 
-    been the industry's standard dummy text ever since the 
-    1500s, when an unknown printer took a galley of type 
-    and scrambled it to make a type specimen book. It has
-     survived not only five centuries,but also the leap 
-     into electronic typesetting remaining essent`,
-    livelink: '#',
-    sourcelink: '#' 
+    popup_description: `"Awesome books" is a simple interactive website that 
+    displays a list of books and allows you to add and remove books from 
+    that list. It is built with JavaScript for DOM manipulation and 
+    for managing data in objects.`,
+    livelink: 'https://cmolinan.github.io/awesome-books/',
+    sourcelink: 'https://github.com/cmolinan/Awesome-Books' 
   },
   {
     id: 4,
-    image: 'images/work4.svg',  
-    title: 'Multi-Post Stories',
-    subtit1: 'CANOPY',
-    subtit2: 'Back End Dev',
-    subtit3: '2015',
-    description: `A daily selection of privately
-    personalized reads; no accounts or
-    sign-ups required.`,
+    image: 'images/work4a.png',  
+    title: 'To Do List',
+    subtit1: 'MICROVERSE',
+    subtit2: 'Front-End Dev',
+    subtit3: '2022',
+    description: `A minimalist website that helps organize 
+    your day, by lists the things you need to do, allowing 
+    to mark and remove the completed tasks`,
     tech1_img: 'images/html-tag.png',
     tech1: 'html',
     tech2_img: 'images/css-tag.png',
     tech2: 'css',
     tech3_img: 'images/js-tag.png',
     tech3: 'javaScript',
-    popup_description: `Lorem Ipsum is simply dummy text of 
-    the printing and typesetting industry. Lorem Ipsum has 
-    been the industry's standard dummy text ever since the 
-    1500s, when an unknown printer took a galley of type 
-    and scrambled it to make a type specimen book. It has
-     survived not only five centuries,but also the leap 
-     into electronic typesetting remaining essent`,
-    livelink: '#',
-    sourcelink: '#' 
+    popup_description: `"To-Do List" is a minimalist website that helps organize 
+    your day. It simply lists the things you need to do and allows you to mark 
+    them as complete. It was built primarily with JavaScript, ES6, and Webpack. 
+    Also, includes testing with Jest.`,
+    livelink: 'https://cmolinan.github.io/To-Do-List/',
+    sourcelink: 'https://github.com/cmolinan/To-do-list-with-testing' 
   }
 ]  
 }
@@ -196,6 +183,7 @@ function createPopupSection() {
 }
 
 //For the Popup Cards
+// eslint-disable-next-line no-unused-vars
 function WorkCards (popcardNumber) {
 
   if ( document.getElementById(popcardNumber).style.display == 'block') {
