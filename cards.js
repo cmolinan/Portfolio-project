@@ -5,7 +5,7 @@ const info = {
   {
     id: 1,
     // image: 'images/work1.svg',
-    image: 'images/work1a.png',
+    image: 'images/work1.png',
     title: 'Portfolio',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
@@ -26,7 +26,7 @@ const info = {
   },
   {
     id: 2,
-    image: 'images/work2a.png',  
+    image: 'images/work2.png',  
     title: 'Website for a Conference',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
@@ -49,7 +49,7 @@ const info = {
   },
   {
     id: 3,
-    image: 'images/work3a.png',
+    image: 'images/work3.png',
     title: 'Awesome Books',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
@@ -72,7 +72,7 @@ const info = {
   },
   {
     id: 4,
-    image: 'images/work4a.png',  
+    image: 'images/work4.png',  
     title: 'To Do List',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
