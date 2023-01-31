@@ -547,6 +547,19 @@ body {
   background-color: #2230d2;
 }
 
+.work-languages li,
+.pop-languages li {
+  color: #7e8bff;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: #ebebff;
+  text-align: center;
+  align-self: center;
+  padding: 4px 12px;
+  margin-right: 8px;
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
@@ -836,4 +849,12 @@ body {
   .contact-button-li {
     text-align: center;
   }
+
+  /* #test1 {
+    color: #7e8bff;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: #ebebff;
+  } */
+  
 }
