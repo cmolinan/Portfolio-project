@@ -4,94 +4,82 @@ const info = {
   works: [
   {
     id: 1,
-    // image: 'images/work1.svg',
-    image: 'images/work1.png',
-    title: 'Portfolio',
+    image: 'images/work5.png',
+    title: 'Crypto World',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
     subtit3: '2022',
-    description: `A Portfolio based in Figma, and
-    built with HTML/CSS and JavaScript for DOM manipulation.`,
-    tech1_img: 'images/html-tag.png',
-    tech1: 'html',
-    tech2_img: 'images/css-tag.png',
-    tech2: 'css',
-    tech3_img: 'images/js-tag.png',
-    tech3: 'javaScript',
-    popup_description: `This Portfolio was built entirely in HTML/CSS and JavaScript 
-    for DOM Manipulation, using technologies such as Flexbox and Grid, and applying 
-    Responsive design. It is based on a FIGMA design`,
-     livelink: 'https://cmolinan.github.io/',
-     sourcelink: 'https://github.com/cmolinan/Portfolio-project' 
+    description: `Crypto World is a responsive web application built with React & Redux,  
+    accessing online data through API fetches`,
+    tech1: 'react & redux',
+    tech2: 'javaScript',
+    tech3: 'css',
+    popup_description: `Crypto World is a webApp that shows online information,
+    coming from the company CoinGecko, about the hundred most important 
+    Cryptocurrencies of the moment, also showing some of their detailed data.`,
+     livelink: 'https://react-redux-capstone-crypto-world.netlify.app/',    
+     sourcelink: 'https://github.com/cmolinan/Metrics-WebApp' 
   },
   {
     id: 2,
-    image: 'images/work2.png',  
-    title: 'Website for a Conference',
+    image: 'images/work6.png',  
+    title: 'The Future Mobility',
     subtit1: 'MICROVERSE',
-    subtit2: 'Front-End Dev',
-    subtit3: '2022',
-    description: `A responsive website for a 
-    Conference commemorating the Bicentennial 
-    of the Independence of Peru.`,
-    tech1_img: 'images/html-tag.png',
-    tech1: 'html',
-    tech2_img: 'images/css-tag.png',
-    tech2: 'css',
-    tech3_img: 'images/js-tag.png',
-    tech3: 'javaScript',
-    popup_description: `This project is a responsive website for a Conference commemorating 
-    the Bicentennial of the Independence of Peru. It is based on an idea from Behance.net 
-    and was built using JavaScript for DOM manipulation and events handling. In addition, 
-    objects were used to access Local Storage`,
-    livelink: 'https://cmolinan.github.io/First-Capstone/',
-    sourcelink: 'https://github.com/cmolinan/First-Capstone-project' 
+    subtit2: 'Full Stack Dev',
+    subtit3: '2023',
+    description: `The Future Mobility is a Full Stack web application, 
+    developed in Ruby on Rails for the API only back-end server 
+    and in React & Redux for the front-end webapp.`,
+    tech1: 'ruby on rails',
+    tech2: 'react & redux',
+    tech3: 'database',
+    popup_description: `Future Mobility manages the CRUD of vehicles 
+    and reservations on an electric car website, which also allows the 
+    creation of new users and access through an authentication mechanism. 
+    Was developed by a team of four members.`,
+    livelink: 'https://futuremobility.netlify.app/',
+    sourcelink: 'https://github.com/cmolinan/the_future_mobility_backend/'
   },
   {
     id: 3,
-    image: 'images/work3.png',
-    title: 'Awesome Books',
+    image: 'images/work7.png',
+    title: "Space Traveler's Hub",
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
     subtit3: '2022',
-    description: `A simple interactive website that displays a 
-    list of books, allowing to add and remove books from 
-    that list.`,
-    tech1_img: 'images/html-tag.png',
-    tech1: 'html',
-    tech2_img: 'images/css-tag.png',
-    tech2: 'css',
-    tech3_img: 'images/js-tag.png',
-    tech3: 'javaScript',
-    popup_description: `"Awesome books" is a simple interactive website that 
-    displays a list of books and allows you to add and remove books from 
-    that list. It is built with JavaScript for DOM manipulation and 
-    for managing data in objects.`,
-    livelink: 'https://cmolinan.github.io/awesome-books/',
-    sourcelink: 'https://github.com/cmolinan/Awesome-Books' 
+    description: `Space Traveler's Hub is a responsive web application built  
+    in React & Redux, allowing users to book rockets and join selected space missions
+    working with real live data from the SpaceX API.`,
+    tech1: 'react & redux',
+    tech2: 'javaScript',
+    tech3: 'css',
+    popup_description: `Space Traveler's Hub is a web application 
+    for a company that provides commercial and scientific space travel services. 
+    The application allow users to book rockets and join selected space missions, 
+    working with real live data from the SpaceX API.`,
+    livelink: 'https://react-redux-capstone-spacex.netlify.app/',
+    sourcelink: 'https://github.com/cmolinan/SpaceHub' 
   },
   {
     id: 4,
-    image: 'images/work4.png',  
-    title: 'To Do List',
+    image: 'images/work8.png',  
+    title: 'Hollywood Central',
     subtit1: 'MICROVERSE',
     subtit2: 'Front-End Dev',
     subtit3: '2022',
-    description: `A minimalist website that helps organize 
-    your day, by lists the things you need to do, allowing 
-    to mark and remove the completed tasks`,
-    tech1_img: 'images/html-tag.png',
+    description: `Hollywood Central is a responsive web application built in JavaScript 
+    which randomly displays many TV Shows, Actors and Actresses allowing the user 
+    to request details of each one through pop-up windows and give them "likes" 
+    and comments`,
     tech1: 'html',
-    tech2_img: 'images/css-tag.png',
     tech2: 'css',
-    tech3_img: 'images/js-tag.png',
     tech3: 'javaScript',
-    popup_description: `"To-Do List" is a minimalist website that helps organize 
-    your day. It simply lists the things you need to do and allows you to mark 
-    them as complete. It was built primarily with JavaScript, ES6, and Webpack. 
-    Also, includes testing with Jest.`,
-    livelink: 'https://cmolinan.github.io/To-Do-List/',
-    sourcelink: 'https://github.com/cmolinan/To-do-list-with-testing' 
+    popup_description: `Hollywood Central is a responsive web application based 
+    on externals APIs, which randomly displays many TV Shows, Actors and 
+    Actresses allowing the user to request details of each one through pop-up 
+    windows and give them "likes" and comments`,
+    livelink: 'https://lucascomamala.github.io/javascript-capstone-project/',
+    sourcelink: 'https://github.com/cmolinan/Hollywood-Central-project' 
   }
 ]  
 }
@@ -117,9 +105,9 @@ function createWorkSection() {
         <p>${data.description}</p>
         <div class="work-languages">                
           <ul>
-            <li><img src="${data.tech1_img}" alt="${data.tech1}"></li>
-            <li><img src="${data.tech2_img}" alt="${data.tech2}"></li>
-            <li><img src="${data.tech3_img}" alt="${data.tech3}"></li>
+            <li>${data.tech1}</li>
+            <li>${data.tech2}</li>
+            <li>${data.tech3}</li>
           </ul>
         </div>
         <button type="button" onclick="WorkCards('popcard${data.id}')" class="work-btn">See Project</button>
@@ -162,10 +150,9 @@ function createPopupSection() {
         </div> 
         <div class="pop-languages">                
           <ul>
-            <li><img src=${data.tech1_img} alt=${data.tech1}></li>
-            <li><img src=${data.tech2_img} alt=${data.tech2}></li>
-            <li><img src=${data.tech3_img} alt=${data.tech3}></li>
-            <li></li>
+            <li>${data.tech1}</li>
+            <li>${data.tech2}</li>
+            <li>${data.tech3}</li>
           </ul>
           <div class="pop-buttons">
             <button type="button" class="pop-btn" onclick=
