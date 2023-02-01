@@ -710,8 +710,9 @@ body {
   }
 
   .about {
-    flex: 1;
+    flex: 1.3;
     padding-left: 140px;
+    padding-top: 8%;
   }
 
   .about-details {
