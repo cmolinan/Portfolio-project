@@ -156,10 +156,10 @@ function createPopupSection() {
           </ul>
           <div class="pop-buttons">
             <button type="button" class="pop-btn" onclick=
-              "location.href='${data.livelink}'">See Live
+              "parent.open('${data.livelink}')">See Live
               <img src="images/popup-btn-Icon.png" alt=""></button>
             <button type="button" class="pop-btn" onclick=
-              "location.href='${data.sourcelink}'">See Source
+              "parent.open('${data.sourcelink}')">See Source
               <img src="images/popup-github.png" alt=""></button>
           </div>
         </div>
