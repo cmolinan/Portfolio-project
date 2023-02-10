@@ -37,7 +37,7 @@ const info = {
     and reservations on an electric car website, which also allows the 
     creation of new users and access through an authentication mechanism. 
     Was developed by a team of four members.`,
-    livelink: 'https://futuremobility.netlify.app/',
+    livelink: 'https://future-mobility.netlify.app/',
     sourcelink: 'https://github.com/cmolinan/the_future_mobility_backend/'
   },
   {
