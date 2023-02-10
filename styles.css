@@ -485,6 +485,7 @@ body {
 .getresume-btn:hover {
   color: white;
   background-color: #6070ff;
+  cursor: pointer;
 }
 
 .work-btn:active,
@@ -616,6 +617,7 @@ body {
 .contact-button:hover {
   color: white;
   background-color: #6070ff;
+  cursor: pointer;
 }
 
 .contact-button:active {
