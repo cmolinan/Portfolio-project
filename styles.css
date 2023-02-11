@@ -53,10 +53,14 @@ body {
 }
 
 .mobile-nav {
+  overflow: hidden;
+  background-color: #e5e5e5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   cursor: pointer;
-  margin-left: auto;
-  padding-top: 15px;
-  padding-right: 36px;
 }
 
 .menu-desktop {
@@ -108,7 +112,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  /* ---- */
 }
 
 .welcome {
@@ -485,6 +488,7 @@ body {
 .getresume-btn:hover {
   color: white;
   background-color: #6070ff;
+  cursor: pointer;
 }
 
 .work-btn:active,
@@ -616,6 +620,7 @@ body {
 .contact-button:hover {
   color: white;
   background-color: #6070ff;
+  cursor: pointer;
 }
 
 .contact-button:active {
@@ -646,23 +651,29 @@ body {
     width: auto;
   }
 
-  .menu-desktop a {
-    color: #344563;
+  .menu-desktop {
+    overflow: hidden;
+    background-color: #e5e5e5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
     font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    text-decoration: none;
-    width: 90px;
-    height: 20px;
-    padding-top: 24px;
-    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 5%;
   }
 
-  .menu-desktop {
-    display: flex;
-    align-items: left;
+  .menu-desktop a {
+    float: right;
+    display: block;
+    color: #344563;
     text-align: center;
-    margin-right: 10%;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 20px;
+    width: 90px;
   }
 
   .toolbar {

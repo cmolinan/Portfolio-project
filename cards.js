@@ -37,7 +37,7 @@ const info = {
     and reservations on an electric car website, which also allows the 
     creation of new users and access through an authentication mechanism. 
     Was developed by a team of four members.`,
-    livelink: 'https://futuremobility.netlify.app/',
+    livelink: 'https://future-mobility.netlify.app/',
     sourcelink: 'https://github.com/cmolinan/the_future_mobility_backend/'
   },
   {
@@ -156,10 +156,10 @@ function createPopupSection() {
           </ul>
           <div class="pop-buttons">
             <button type="button" class="pop-btn" onclick=
-              "location.href='${data.livelink}'">See Live
+              "parent.open('${data.livelink}')">See Live
               <img src="images/popup-btn-Icon.png" alt=""></button>
             <button type="button" class="pop-btn" onclick=
-              "location.href='${data.sourcelink}'">See Source
+              "parent.open('${data.sourcelink}')">See Source
               <img src="images/popup-github.png" alt=""></button>
           </div>
         </div>
@@ -183,6 +183,8 @@ function WorkCards (popcardNumber) {
    document.getElementById('about-section').style.display = 'flex';
    document.getElementById('contact-background').style.display = 'block'; 
 
+   document.getElementById('menu-desktop').style.display = 'flex';    
+
    //jump to the original Card 
    window.location.href = "#work"+ popcardNumber.substring(7, 8);
   } else {
@@ -194,6 +196,9 @@ function WorkCards (popcardNumber) {
    
    document.getElementById('about-section').style.display = 'none';
    document.getElementById('contact-background').style.display = 'none';    
+
+   document.getElementById('menu-desktop').style.display = 'none';    
+
  }
 }
 
