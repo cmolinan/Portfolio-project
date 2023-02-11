@@ -638,7 +638,7 @@ body {
   margin-right: 8px;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
   .mobile-nav {
     display: none;
   }
@@ -648,7 +648,32 @@ body {
     width: auto;
   }
 
+  .menu-desktop {
+    overflow: hidden;
+    background-color: #e5e5e5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 5%;
+  }
+
   .menu-desktop a {
+    float: right;
+    display: block;
+    color: #344563;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 20px;
+    width: 90px;
+  }
+
+  /* .menu-desktop a {
     color: #344563;
     font-size: 15px;
     font-weight: 500;
@@ -665,7 +690,7 @@ body {
     align-items: left;
     text-align: center;
     margin-right: 10%;
-  }
+  } */
 
   .toolbar {
     justify-content: space-between;

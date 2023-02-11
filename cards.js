@@ -183,6 +183,8 @@ function WorkCards (popcardNumber) {
    document.getElementById('about-section').style.display = 'flex';
    document.getElementById('contact-background').style.display = 'block'; 
 
+   document.getElementById('menu-desktop').style.display = 'flex';    
+
    //jump to the original Card 
    window.location.href = "#work"+ popcardNumber.substring(7, 8);
   } else {
@@ -194,6 +196,9 @@ function WorkCards (popcardNumber) {
    
    document.getElementById('about-section').style.display = 'none';
    document.getElementById('contact-background').style.display = 'none';    
+
+   document.getElementById('menu-desktop').style.display = 'none';    
+
  }
 }
 
