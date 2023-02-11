@@ -16,32 +16,28 @@
     <a href="#about-section">About</a>
     <a href="#contact-background">Contact</a>
   </nav>
-  
+
+  <header class="toolbar" id="toolbar">                  
+    
+    <nav id="main-menu" class="mobile-nav">
+      <a id="menu-icon" href="#mobile-menu" onclick="MobileMenu()"><img src="./images/hamburger-icon.svg" alt="Menu"></a>          
+      
+      <!-- MobileMenu Only appears when Hamburguer Icon is pressed -->
+      <div id="MobileMenu" >
+        <a id="close-menu" class="close-menu" onclick="MobileMenu()" >
+          <img src="./images/close-x.svg"  alt="close menu">
+        </a>
+        <a href="#work-section" onclick="MobileMenu()" class="menu">Portfolio</a>
+        <a href="#about-section" onclick="MobileMenu()" class="menu">About</a>
+        <a href="#contact-background" onclick="MobileMenu()" class="menu">Contact</a>
+      </div>
+
+    </nav>
+  </header>
+
+
   <main class="main-container">
   
-    <header class="toolbar" id="toolbar">                  
-      <span class="logo"></span>
-      <!-- <div class="menu-desktop">
-        <a href="#work-section">Portfolio</a>
-        <a href="#about-section">About</a>
-        <a href="#contact-background">Contact</a>
-      </div> -->
-      <nav id="main-menu" class="mobile-nav">
-        <a id="menu-icon" href="#mobile-menu" onclick="MobileMenu()"><img src="./images/hamburger-icon.svg" alt="Menu"></a>          
-        
-        <!-- MobileMenu Only appears when Hamburguer Icon is pressed -->
-        <div id="MobileMenu" >
-          <a id="close-menu" class="close-menu" onclick="MobileMenu()" >
-            <img src="./images/close-x.svg"  alt="close menu">
-          </a>
-          <a href="#work-section" onclick="MobileMenu()" class="menu">Portfolio</a>
-          <a href="#about-section" onclick="MobileMenu()" class="menu">About</a>
-          <a href="#contact-background" onclick="MobileMenu()" class="menu">Contact</a>
-        </div>
-
-      </nav>
-    </header>
-
     <section class="section-headline" id="section-headline">
       <div class="headline">
         <h1 class="welcome" >I'm Carlos Molina.<br>

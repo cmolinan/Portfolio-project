@@ -53,10 +53,14 @@ body {
 }
 
 .mobile-nav {
+  overflow: hidden;
+  background-color: #e5e5e5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
   cursor: pointer;
-  margin-left: auto;
-  padding-top: 15px;
-  padding-right: 36px;
 }
 
 .menu-desktop {
@@ -108,7 +112,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  /* ---- */
 }
 
 .welcome {
@@ -638,7 +641,7 @@ body {
   margin-right: 8px;
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
   .mobile-nav {
     display: none;
   }
@@ -672,25 +675,6 @@ body {
     line-height: 20px;
     width: 90px;
   }
-
-  /* .menu-desktop a {
-    color: #344563;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 20px;
-    text-decoration: none;
-    width: 90px;
-    height: 20px;
-    padding-top: 24px;
-    text-align: center;
-  }
-
-  .menu-desktop {
-    display: flex;
-    align-items: left;
-    text-align: center;
-    margin-right: 10%;
-  } */
 
   .toolbar {
     justify-content: space-between;
